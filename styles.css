@@ -17,40 +17,6 @@
      }
 body { background-color: #FFDBDB ;
       color: #003300;
-      <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .container {
-            display: flex;
-       
-            height: 100vh; 
-        }
-
-        .text-half {
-            width: 50%;
-            background-color: #003300;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .text-half p {
-            font-size: 1.5rem;
-            color:#FFDBDB  ;
-        }
-
-        .empty-half {
-            width: 50%;
-            background-color: white;
-        }
-   
     }
 header { background-color: #FFDBDB ;
        }
@@ -64,9 +30,7 @@ text-decoration: underline;
 nav a {
         text-align: Right;
 
-background-color: #003300;
-        color:  #FFDBDB
-
+color: #003300;
 
 text-decoration: none;
 
