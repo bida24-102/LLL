@@ -2,7 +2,7 @@
         h1 {
             font-size: 48px; 
             font-family: 'Georgia', serif; 
-            color: #FF7F50;
+            color:#FF5D37 ;
             letter-spacing: 2px; 
             text-transform: uppercase; 
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -30,7 +30,9 @@ text-decoration: underline;
 nav a {
         text-align: Right;
 
-color: #003300;
+background-color: #003300;
+        color:  #FFDBDB
+
 
 text-decoration: none;
 
