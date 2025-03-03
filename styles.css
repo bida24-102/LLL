@@ -27,6 +27,7 @@ nav a:hover {
 text-decoration: underline;
 }
 nav a {
+        text-align: Right;
 
 color: #003300;
 
