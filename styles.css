@@ -24,4 +24,17 @@ header { background-color: #FFC0CB;
 footer { background-colour: #003300;
         color: #FFC0CB
        }
+nav a:hover {
+
+text-decoration: underline;
+}
+nav a {
+
+color: #003300;
+
+text-decoration: none;
+
+margin: 0 10px;
+
+}
 
