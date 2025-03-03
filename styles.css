@@ -16,11 +16,12 @@
      margin-top: 50px;
      }
 body { background-color: #ffd1d1;
+      color: #003300;
     }
 header { background-color:#ffd1d1 ;
        }
 footer { background-colour: #003300;
-        color: #FFC0CB
+        color: #FFC0CB;
        }
 nav a:hover {
 
