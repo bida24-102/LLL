@@ -17,6 +17,19 @@
      }
 body { background-color: #FFDBDB ;
       color: #003300;
+      .container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        height: 100vh;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    .text-right {
+        justify-self: end; 
+        font-size: 1.5rem;
+        color: #FFDBDB;
+    }
     }
 header { background-color: #FFDBDB ;
        }
