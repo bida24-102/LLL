@@ -1,17 +1,17 @@
 
         h3 { color: #003300 ;
-            font-family: 'Angelina', serif;
+            font-family: 'Angelina' ;
            }
 h1 {
             font-size: 48px; 
-            font-family: 'Angelina', serif; 
+            font-family: 'Angelina' ; 
             color:#FF5D37 ;
             letter-spacing: 2px; 
             text-transform: uppercase; 
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
             margin-top: 50px; 
         }
-  h2 { font-family: 'Angelina', serif;
+  h2 { font-family: 'Angelina' ;
      color: #FA8072;
      letter-spacing: 2px;
      text-transform: uppercase;
