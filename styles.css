@@ -21,10 +21,12 @@ h1 {
 body { background-color: #fff8f0 ;
      
 header { background-color: #BB002F ;
+        padding: 20px ;
         
        }
-footer { background-colour: #003300;
-        color: #FFC0CB;
+footer { background-colour: #BB002F ;
+        padding: 20px ;
+       
        }
 nav a:hover {
 
