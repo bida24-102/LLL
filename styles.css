@@ -6,7 +6,7 @@
     }
 
     .hero {
-      background-image: url('https://img.freepik.com/premium-photo/bakery-advertisment-background-with-copy-space_118124-137071.jpg'); /* Replace with your image path or URL */
+      background-image: url('https://img.freepik.com/premium-photo/bakery-advertisment-background-with-copy-space_118124-137071.jpg'); 
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -14,7 +14,7 @@
     }
 
     .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: #000;
       height: 100%;
       width: 100%;
       position: absolute;
