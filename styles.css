@@ -18,7 +18,7 @@ h1 {
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
      margin-top: 50px;
      }
-body { background-color: #FFCBB1 ;
+body { background-color: #fff8f0 ;
      
 header { background-color: #BB002F ;
         
@@ -32,7 +32,7 @@ text-decoration: underline ;
 text-colour: #006670 ;
 }
 nav a {
- text-align: Left ;
+ text-align: Right ;
 
 color: #FFCBB1 ;
 
