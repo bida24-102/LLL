@@ -1,6 +1,8 @@
 
-        h3 { color:  ;
-            font-family: 'Angelina' ;
+        h3 { 
+            font-family: pacifico, cursive ;
+        colour: #fff8f0 ;
+        
            }
 h1 {
             font-size: 48px; 
@@ -22,9 +24,8 @@ body { background-color: #fff8f0 ;
      
 header { background-color: #BB002F ;
         padding: 20px ;
-        font-family: pacifico, cursive ;
         colour: #fff8f0 ;
-        
+        margin: 0px, 0px, 0px ;
        }
 footer { background-colour: #BB002F ;
         padding: 20px ;
