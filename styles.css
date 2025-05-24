@@ -72,13 +72,13 @@ main {
 
     body {
       font-family: 'Open Sans', sans-serif;
-      background-color: var(--light-pink);
-      color: var(--text-dark);
+      background-color: #fceae8;
+      color: #2c1f18;
       line-height: 1.6;
     }
 
     header {
-      background-color: var(--brown);
+      background-color: #6f4e37;
       color: white;
       padding: 20px 60px;
       display: flex;
@@ -99,7 +99,7 @@ main {
     }
 
     hero {
-      background: url('your-hero-image.jpg') center/cover no-repeat;
+      background: url('https://images.creativemarket.com/0.1.0/ps/2286197/910/607/m2/fpnw/wm1/nw2cskdotssrmfcynx4kkyjnh4qrtkzskjhciodnqjiaisxz7saff4w8qylsak42-.jpg?1487242282&s=934b6e9a6791ced0654b805dadf0bc42') center/cover no-repeat;
       height: 90vh;
       display: flex;
       align-items: center;
@@ -134,7 +134,7 @@ main {
     }
 
     hero-content a {
-      background-color: var(--accent);
+      background-color: #d4a373;
       color: white;
       padding: 12px 24px;
       text-decoration: none;
@@ -154,7 +154,7 @@ main {
     }
 
     footer {
-      background-color: var(--brown);
+      background-color: #6f4e37;
       color: white;
       padding: 40px 60px;
       display: flex;
