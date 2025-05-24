@@ -132,3 +132,10 @@
     button:hover {
       background-color: #b66b2e;
     }
+
+main {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      padding: 40px;
+      color: #333;
+    }
