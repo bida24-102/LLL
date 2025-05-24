@@ -5,7 +5,7 @@
       color: white;
     }
 
-    .hero {
+    hero {
       background-image: url('https://img.freepik.com/premium-photo/bakery-advertisment-background-with-copy-space_118124-137071.jpg'); 
       background-size: cover;
       background-position: center;
@@ -13,7 +13,7 @@
       position: relative;
     }
 
-    .overlay {
+    overlay {
       background-color: #000;
       height: 100%;
       width: 100%;
@@ -22,7 +22,7 @@
       left: 0;
     }
 
-    .nav {
+    nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -31,7 +31,7 @@
       z-index: 2;
     }
 
-    .nav a {
+    nav a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
@@ -44,7 +44,7 @@
       border-radius: 5px;
     }
 
-    .hero-text {
+    hero-text {
       position: relative;
       z-index: 2;
       top: 40%;
@@ -52,17 +52,17 @@
       max-width: 500px;
     }
 
-    .hero-text h1 {
+    hero-text h1 {
       font-size: 3rem;
       margin: 0 0 20px;
     }
 
-    .hero-text p {
+    hero-text p {
       font-size: 1.1rem;
       margin-bottom: 30px;
     }
 
-    .buttons a {
+    buttons a {
       display: inline-block;
       margin-right: 15px;
       padding: 12px 25px;
@@ -73,13 +73,13 @@
       font-weight: bold;
     }
 
-    .buttons .solid {
+    buttons .solid {
       background-color: #d4a373;
       border-color: #d4a373;
     }
 
-    .buttons .solid:hover,
-    .nav .cta-button:hover {
+    buttons .solid:hover,
+    nav .cta-button:hover {
       background-color: #b66b2e;
     }
 
