@@ -65,7 +65,7 @@ body {
     }
 
     hero {
-      background-image: url('Cafenod.jpg'); /* Replace with your image path or URL */
+      background-image: url('https://img.freepik.com/premium-photo/different-bread-rustic-dark-background_914391-2721.jpg'); 
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -73,7 +73,7 @@ body {
     }
 
     overlay {
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(0, 0, 0, 0.8);
       height: 100%;
       width: 100%;
       position: absolute;
@@ -98,7 +98,7 @@ body {
     }
 
     nav .cta-button {
-      background-color: #d4a373;
+      background-color: #cc3d3d;
       padding: 10px 20px;
       border-radius: 5px;
     }
@@ -133,13 +133,13 @@ body {
     }
 
     buttons .solid {
-      background-color: #d4a373;
+      background-color: #cc3d3d;
       border-color: #d4a373;
     }
 
     buttons .solid:hover,
     nav .cta-button:hover {
-      background-color: #b66b2e;
+      background-color:  #991414;
     }
 
 
