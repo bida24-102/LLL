@@ -44,10 +44,12 @@ main {
       background-color:#202020;
       padding: 40px;
       color: #333;
+    margin: 0;
     }
 
 header {
     background-colour:#080808;
+    margin: 0;
 }
 
 .form-container {
@@ -59,6 +61,11 @@ header {
       box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     }
 
+ body {
+      margin: 0;
+      font-family: Arial , sans-serif;
+      color: #202020;
+    }
 
 ______________________________________________________________________________________________________________________________
 
