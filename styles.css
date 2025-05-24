@@ -41,7 +41,7 @@
 
 main {
       font-family: Arial, sans-serif;
-      background-color: #fff8f0;
+      background-color:#202020;
       padding: 40px;
       color: #333;
     }
@@ -84,7 +84,7 @@ ________________________________________________________________________________
       
     }
 
-   .nav:hover {
+   .nav a:hover {
     text-decoration: underline;
     text-weight: bold;
    }
