@@ -4,11 +4,104 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lola's Latte & Layers</title>
-  <link href="style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">  
+   <style>
+    body {
+      margin: 0;
+      font-family: Arial , sans-serif;
+      color: white;
+    }
+
+    .hero {
+      background-image: url('https://img.freepik.com/premium-photo/coffee-beans-black-table-top-view-with-copy-space-flat-lay_823200-971.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      position: relative;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      height: 10%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      
+    }
+
+   .nav a:hover {
+    text-decoration: underline;
+    text-weight: bold;
+   }
+
+    .nav .cta-button {
+      background-color: #d4a373;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+      top: 40%;
+      left: 10%;
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin: 0 0 20px;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 12px 25px;
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .buttons .solid {
+      background-color: #d4a373;
+      border-color: #d4a373;
+    }
+
+    .buttons .solid:hover,
+    .nav .cta-button:hover {
+      background-color: #b66b2e;
+    }
+  </style>
 </head>
 
-<body>
-  <div class="nav">
+<body >
+
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="nav">
       <div class="logo"><strong>Lola's Latte&Layers</strong></div>
       <div>
         <a href="index.html">Home</a>
@@ -18,8 +111,14 @@
         <a href="contact.html" class="cta-button">Contact Us</a>
       </div>
     </div>
-  
-</body>
+    <div class="hero-text">
+      <h1>PERK AND PASTRY</h1>
+      <p>Have a look at some of our delectable in-house cakes, pastries and treats. 
+        Don't be shy to take a look at our coffee menu and come on down with all the company you need! </p>
+    </div>
+  </section>
+ 
+
 
 <footer>
   
