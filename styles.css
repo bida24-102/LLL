@@ -1,4 +1,10 @@
 
+header {
+    background-colour: #080808;
+    font-family: Arial, sans-serif;
+    colour: white;
+}
+
     h2 {
       text-align: center;
       color: #a0522d;
