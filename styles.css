@@ -59,7 +59,41 @@ main {
 ______________________________________________________________________________________________________________________________
 
 
+.overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      height: 10%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
 
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      
+    }
+
+   .nav:hover {
+    text-decoration: underline;
+    text-weight: bold;
+   }
+
+    .nav .cta-button {
+      background-color: #d4a373;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
 
        
 _____________________________________________________________________________________________________________________________________________________________
