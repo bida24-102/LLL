@@ -84,15 +84,6 @@
     }
 
 
-.form-container {
-      max-width: 600px;
-      margin: auto;
-      background-color: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    }
-
     h2 {
       text-align: center;
       color: #a0522d;
@@ -138,4 +129,13 @@ main {
       background-color: #fff8f0;
       padding: 40px;
       color: #333;
+    }
+
+.form-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     }
