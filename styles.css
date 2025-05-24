@@ -46,6 +46,10 @@ main {
       color: #333;
     }
 
+header {
+    background-colour:#080808;
+}
+
 .form-container {
       max-width: 600px;
       margin: 40px auto;
