@@ -2,9 +2,11 @@
 header {
     background-colour: #080808;
     font-family: Arial, sans-serif;
-    colour: white;
 }
 
+footer {
+    background-colour: #080808;
+}
     h2 {
       text-align: center;
       color: #a0522d;
