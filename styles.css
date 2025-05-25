@@ -83,6 +83,7 @@ ________________________________________________________________________________
     .nav {
       display: flex;
       justify-content: space-between;
+        colour: #080808;
       align-items: center;
       padding: 20px 60px;
       position: relative;
