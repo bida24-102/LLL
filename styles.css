@@ -91,6 +91,10 @@ ________________________________________________________________________________
       font-weight: bold;
     }
 
+.nav a:hover {
+    text-decoration: underline;
+}
+
     .nav .cta-button {
       background-color: #d4a373;
       padding: 10px 20px;
