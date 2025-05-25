@@ -6,11 +6,6 @@
   <title>Lola's Latte & Layers</title>
   <link href="style.css" rel="stylesheet">  
    <style>
-    body {
-      margin: 0;
-      font-family: Arial , sans-serif;
-      color: white;
-    }
 
     .hero {
       background-image: url('https://cdn.shopify.com/s/files/1/0063/6154/6850/files/CW_Banner_8_960x.jpg?v=1630595369'); 
@@ -94,6 +89,63 @@
     .nav .cta-button:hover {
       background-color: #b66b2e;
     }
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f5;
+      padding: 20px;
+      color: #4e342e;
+  margin: 0;
+  colour: white;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6d4c41;
+    }
+
+    .catalog {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .product {
+      background-color: #fff3e0;
+      border: 1px solid #d7ccc8;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product h2 {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    .product p {
+      font-size: 0.9em;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #a1887f;
+      margin-top: 10px;
+    }
+     
   </style>
 </head>
 
@@ -118,7 +170,21 @@
     </div>
   </section>
  
-
+<div class="catalog">
+    <div class="product">
+      <img src="https://th.bing.com/th?id=OIF.dpEBuHm%2bCGM%2fFGzL5eY7KQ&rs=1&pid=ImgDetMain" alt="Carrot cake" />
+      <h2>Carrot and Pecan Cake</h2>
+      <p>A moist carrot cake, loaded with fresh carrots and crunchy pecans, finished with a smooth cream cheese frosting.</p>
+      <div class="price">P250.00</div>
+    </div>
+    <div class="product">
+      <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-02/4/19/enhanced/webdr12/original-grid-image-30948-1423096570-16.jpg?crop=960:960;0,0" alt="Doughnuts" />
+      <h2>Assorted Doughnuts</h2>
+      <p>A delightful mix of classic and creative doughnuts—glazed, filled, and frosted.</p>
+      <div class="price">P29.99 each</div>
+    </div>
+    <!-- Add more product cards as needed -->
+  </div>
 
 <footer>
   
