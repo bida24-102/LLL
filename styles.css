@@ -103,7 +103,10 @@ ________________________________________________________________________________
     .nav .cta-button {
       background-color: #d4a373;
       padding: 10px 20px;
-      border-radius: 5px;
+      border-radius: 25px;
+     font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
     }
 
     .hero-text {
@@ -149,7 +152,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.nav-btn {
+        width: 100%;
+    
+        padding: 12px 16px;
+        font-size: 1rem;
+      }
 _____________________________________________________________________________________________________________________________________________________________
     
 .catalog {
