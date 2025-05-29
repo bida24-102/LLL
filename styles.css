@@ -1,14 +1,6 @@
 
 
-    h2 {
-     
-      color: #a0522d;
-        position: relative;
-      z-index: 2;
-      top: 40%;
-      left: 10%;
-      max-width: 500px;
-    }
+   
 
     label {
       display: block;
