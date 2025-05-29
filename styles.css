@@ -134,15 +134,7 @@ ________________________________________________________________________________
         font-size: 1.1rem;
     }
 
-p {
-    margin-bottom: 30px;
-       position: relative;
-      z-index: 2;
-      top: 40%;
-      left: 10%;
-      max-width: 500px;
-        font-size: 1.1rem;
-}
+
 
     .buttons a {
       display: inline-block;
